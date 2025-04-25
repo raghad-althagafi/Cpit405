@@ -1,0 +1,13 @@
+.FooterContainer{
+    width: 100%;
+    background-color: #F5F5F5;
+    padding: 70px 0 230px;
+    justify-content: end;
+}
+
+.FooterContainer h1{
+    align-content: end;
+    align-self: end;
+    margin-bottom: auto;
+    font-size: 80px;
+}
