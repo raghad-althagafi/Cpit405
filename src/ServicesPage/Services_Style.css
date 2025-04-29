@@ -1,18 +1,28 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+<<<<<<< HEAD
   background-color: #f5f5f5;
   color: #262626;
 }
 
 /* نخلي الصفحة منظمة */
+=======
+  background-color: #ffffff;
+  color: #262626;
+}
+
+>>>>>>> 0423d0b5b71ef98240f75558421bd8c7f41d001e
 .page {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+<<<<<<< HEAD
 /* الهيدر */
+=======
+>>>>>>> 0423d0b5b71ef98240f75558421bd8c7f41d001e
 .header {
   width: 100%;
 }
@@ -28,7 +38,10 @@ body {
   margin: 0;
 }
 
+<<<<<<< HEAD
 /* المحتوى الرئيسي */
+=======
+>>>>>>> 0423d0b5b71ef98240f75558421bd8c7f41d001e
 .container {
   margin: auto;
   display: flex;
@@ -36,6 +49,7 @@ body {
   align-items: center;
 }
 
+<<<<<<< HEAD
 /* عنوان رئيسي */
 .main-title {
   text-align: center;
@@ -45,12 +59,24 @@ body {
 
 /* النص التمهيدي */
 .intro-text {
+=======
+.title {
+  text-align: center;
+  margin: 80px 0 40px 0; 
+  font-size: 48px;
+}
+
+.text {
+>>>>>>> 0423d0b5b71ef98240f75558421bd8c7f41d001e
   text-align: center;
   font-size: 200%;
   margin-bottom: 5%;
 }
 
+<<<<<<< HEAD
 /* زر */
+=======
+>>>>>>> 0423d0b5b71ef98240f75558421bd8c7f41d001e
 button {
   /* font-size: 20px;
   padding: 20px 30px;
@@ -69,20 +95,28 @@ button {
   border: none;
   border-radius: 20px;
   cursor: pointer;
+<<<<<<< HEAD
   margin-bottom: 40%;
+=======
+  /* margin-bottom: 40%; */
+>>>>>>> 0423d0b5b71ef98240f75558421bd8c7f41d001e
 }
 
 button:hover {
   background-color: #3c3c3c;
 }
 
+<<<<<<< HEAD
 /* نص فرعي */
+=======
+>>>>>>> 0423d0b5b71ef98240f75558421bd8c7f41d001e
 .sub-text {
   margin-top: 10%;
   text-align: center;
   font-size: 200%;
 }
 
+<<<<<<< HEAD
 /* البوكسات الخاصة بالخدمات */
 .service-box {
   background-color: #ffffff;
@@ -91,6 +125,16 @@ button:hover {
   transition: 0.3s ease;
   width: 80%;
   padding: 20px;
+=======
+ 
+.service-box {
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  margin-bottom: 200px;
+  transition: 0.3s ease;
+  width: 70%;
+  padding: 30px;
+>>>>>>> 0423d0b5b71ef98240f75558421bd8c7f41d001e
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -98,6 +142,7 @@ button:hover {
   transform: scale(1.02);
 }
 
+<<<<<<< HEAD
 /* عنوان الخدمة */
 .service-title {
   font-size: 22px;
@@ -113,13 +158,33 @@ button:hover {
 }
 
 /* سكشن الخدمات - فيه صورة خلفية */
+=======
+/* service's title */
+.service-title {
+  font-size: 250%;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #003366;
+}
+
+/* service's description*/
+.service-desc {
+  font-size: 110%;
+  line-height: 1.6;
+}
+
+>>>>>>> 0423d0b5b71ef98240f75558421bd8c7f41d001e
 .services-section {
   width: 100%;
   background-image: url("backgroundService1.png");
   background-repeat: no-repeat;
   /* background-size: cover; */
   background-position: top center;
+<<<<<<< HEAD
   padding: 100px 20px; /* padding عشان يكون في مساحة فوق تحت */
+=======
+  padding: 100px 20px; 
+>>>>>>> 0423d0b5b71ef98240f75558421bd8c7f41d001e
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -129,3 +194,27 @@ button:hover {
    background-attachment: scroll;
    background-size: 100% auto;
 }
+<<<<<<< HEAD
+=======
+
+.End-Page {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("BackgroundService2.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain; 
+  background-attachment: scroll;
+  
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-size: 100% auto;
+
+  justify-content: center; /* بالنص بالعرض */
+  align-items: center;     /* بالنص بالطول */
+}
+
+>>>>>>> 0423d0b5b71ef98240f75558421bd8c7f41d001e

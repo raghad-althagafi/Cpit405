@@ -4,13 +4,20 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import HomePage from './HomePage/HomePage';
 import Services from './ServicesPage/Services';
+<<<<<<< HEAD
 import ContactUs from './ContactUsPage/ContactUs';
+=======
+>>>>>>> 0423d0b5b71ef98240f75558421bd8c7f41d001e
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <HomePage /> */}
+<<<<<<< HEAD
     <ContactUs />
+=======
+    <Services />
+>>>>>>> 0423d0b5b71ef98240f75558421bd8c7f41d001e
   </React.StrictMode>
 );
 
