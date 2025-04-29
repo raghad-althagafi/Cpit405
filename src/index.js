@@ -4,12 +4,12 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import HomePage from './HomePage/HomePage';
 import Services from './ServicesPage/Services';
-
+import ContactUs from './ContactUsPage/ContactUs';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <HomePage /> */}
-    <Services />
+    <ContactUs />
   </React.StrictMode>
 );
 
