@@ -1,19 +1,8 @@
-<<<<<<< HEAD
 import './ContactUs_Style.css';
-import Footer from '../Footer';
-import Header from '../Header';
-=======
-
-import './ContactUs_Style.css';
->>>>>>> a0aec6cc01b2c0ba03fea9bd6ffea707787e044b
 
 function ContactUs() {
   return (
     <div className="page">
-<<<<<<< HEAD
-      <Header />
-=======
->>>>>>> a0aec6cc01b2c0ba03fea9bd6ffea707787e044b
       <section className="contact-section">
         <h1 className="main-title">Get In Touch</h1>
         <p className="intro-text">
@@ -46,17 +35,8 @@ function ContactUs() {
           </form>
         </div>
       </section>
-<<<<<<< HEAD
-      <Footer />
-=======
->>>>>>> a0aec6cc01b2c0ba03fea9bd6ffea707787e044b
     </div>
   );
 }
 
-export default ContactUs;
-<<<<<<< HEAD
-=======
-
-
->>>>>>> a0aec6cc01b2c0ba03fea9bd6ffea707787e044b
+export default ContactUs;

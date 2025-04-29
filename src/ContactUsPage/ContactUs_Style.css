@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -12,7 +12,6 @@ body {
   align-items: center;
 }
 
-/* استخدم نفس خلفية صفحة الخدمات */
 .contact-section {
   width: 100%;
   min-height: 100vh;
@@ -97,106 +96,5 @@ body {
 .submit-btn:hover {
   background-color: #3c3c3c;
 }
-=======
 
-body {
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f5f5f5;
-    color: #262626;
-  }
-  
-  .page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .contact-section {
-    width: 100%;
-    min-height: 100vh;
-    background-image: url("../ServicesPage/backgroundService1.png");
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: 100% auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 100px 20px 40px 20px;
-  }
-  
-  .main-title {
-    text-align: center;
-    margin: 40px 0 20px 0;
-    font-size: 2.5rem;
-    font-weight: bold;
-  }
-  
-  .intro-text {
-    text-align: center;
-    font-size: 1.2rem;
-    margin-bottom: 40px;
-    max-width: 600px;
-    background: rgba(255,255,255,0.8);
-    border-radius: 10px;
-    padding: 10px 20px;
-  }
-  
-  .contact-form-container {
-    background: rgba(247,247,247,0.95);
-    border-radius: 12px;
-    box-shadow: 0 2px 16px rgba(0,0,0,0.06);
-    padding: 32px 24px;
-    width: 100%;
-    max-width: 600px;
-  }
-  
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-  }
-  
-  .form-row {
-    display: flex;
-    gap: 16px;
-  }
-  
-  .form-input {
-    flex: 1;
-    padding: 12px;
-    border-radius: 8px;
-    border: 1px solid #e0e0e0;
-    font-size: 1rem;
-    background: #fff;
-  }
-  
-  .checkbox-row {
-    display: flex;
-    align-items: flex-start;
-    font-size: 0.95rem;
-    gap: 8px;
-  }
-  
-  .submit-btn {
-    font-size: 1.1rem;
-    padding: 16px 0;
-    background-color: #262626;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    margin-top: 12px;
-    width: 100%;
-    font-weight: bold;
-    letter-spacing: 1px;
-    transition: background 0.2s;
-  }
-  
-  .submit-btn:hover {
-    background-color: #3c3c3c;
-  }
-  
-  
-  
->>>>>>> a0aec6cc01b2c0ba03fea9bd6ffea707787e044b
+
