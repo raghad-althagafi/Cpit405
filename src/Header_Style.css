@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #262626;
+}
+
+.Header_Image{
+    background-image: url(HomePageImage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.Header_Style{
+    min-height: 100vh;
+    font-style: bold;
+    height: 50px;
+    padding: 0 30px;
+    padding-top: 2%;
+}
+
+.Header_List{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Header_List_Item{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: pink;
+}
+
+nav li:first-child{ 
+    margin-right: auto;
+    font-weight: bolder;
+    font-size: 33px;
+}
+
+.LetsTalkButton{
+    text-decoration: none;
+    color:#E2E2E2;
+    background-color: #262626;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 1000px;
+    font-weight: bold;
+}
+
+.Banner{
+    width: 90%;
+    position: absolute;
+    top: 70%;
+    bottom: 30%;
+    left: 5%;
+    font-size: 50px;
+}
