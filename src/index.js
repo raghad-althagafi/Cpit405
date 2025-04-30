@@ -5,12 +5,20 @@ import reportWebVitals from './reportWebVitals';
 import HomePage from './HomePage/HomePage';
 import Services from './ServicesPage/Services';
 import ContactUs from './ContactUsPage/ContactUs';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from './Header';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <HomePage /> */}
-    {/* <ContactUs /> */}
-    <Services />
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/Services" element={<Services/>} />
+        {/*<Route path="/about" element={<About />} />*/}
+        <Route path="/ContactUs" element={<ContactUs />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

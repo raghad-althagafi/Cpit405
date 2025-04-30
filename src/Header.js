@@ -1,22 +1,19 @@
 import './Header_Style.css';
+import Button from './Button'
+import { Link } from "react-router-dom";
 
 function Header() { 
   return (
     <>
-    <header className="Header_Image">
+    <header>
         <nav className="Header_Style">
             <ul className="Header_List">
-            <li><a className="Header_List_Item"  href='#'>IT Solutions</a></li>
-            <li><a className="Header_List_Item" href='#'>Service</a></li>
-            <li><a className="Header_List_Item" href='#'>About Us</a></li>
-            <li><a className="Header_List_Item , LetsTalkButton" href='#'>Let's Talk!</a></li>
+            <li><Link to="/" className="Header_List_Item" >IT Solutions</Link></li>
+            <li><Link to="/services" className="Header_List_Item">Service</Link></li>
+            <li><Link to="/about" className="Header_List_Item">About Us</Link></li>
+            <li><Button  Link = "/ContactUs" name = "Let's Talk!"/></li>
             </ul>
         </nav>
-        <h1 className="Banner">
-        Discover <br/>
-        real-world <br/>
-        IT Solutions <br/>
-      </h1>
     </header>
     </>
   );

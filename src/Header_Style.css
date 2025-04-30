@@ -5,16 +5,13 @@
     color: #262626;
 }
 
-.Header_Image{
-    background-image: url(HomePageImage.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-}
 .Header_Style{
-    min-height: 100vh;
+    min-width: 200vh;
     font-style: bold;
+    position: fixed; /*make it at top*/
+    z-index: 1000; /*make it in front of every pic!*/
+    background-color: rgba(255, 255, 255, 0.112); /* glass but transparent */
+    backdrop-filter: blur(10px);  
     height: 50px;
     padding: 0 30px;
     padding-top: 2%;
@@ -31,11 +28,14 @@
 .Header_List_Item{
     height: 100%;
     padding: 0 30px;
+    border-radius: 1000px;
     text-decoration: none;
 }
 
 nav a:hover{
-    color: pink;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(255, 98, 171, 0.5), 0 0 30px rgba(255, 255, 255, 0.4);
+    filter: brightness(1.1);
 }
 
 nav li:first-child{ 
@@ -44,21 +44,3 @@ nav li:first-child{
     font-size: 33px;
 }
 
-.LetsTalkButton{
-    text-decoration: none;
-    color:#E2E2E2;
-    background-color: #262626;
-    padding: 1em 2em;
-    border: none;
-    border-radius: 1000px;
-    font-weight: bold;
-}
-
-.Banner{
-    width: 90%;
-    position: absolute;
-    top: 70%;
-    bottom: 30%;
-    left: 5%;
-    font-size: 50px;
-}
