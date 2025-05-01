@@ -6,11 +6,11 @@
 }
 
 .Header_Style{
-    min-width: 200vh;
+    min-width: 180vh;
     font-style: bold;
-    position: fixed; /*make it at top*/
-    z-index: 1000; /*make it in front of every pic!*/
-    background-color: rgba(255, 255, 255, 0.112); /* glass but transparent */
+    position: fixed;
+    z-index: 1000; 
+    background-color: rgba(255, 255, 255, 0.112);
     backdrop-filter: blur(10px);  
     height: 50px;
     padding: 0 30px;
@@ -21,7 +21,7 @@
     width: 100%;
     list-style: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
 }
 
