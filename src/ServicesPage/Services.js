@@ -2,10 +2,12 @@ import './Services_Style.css';
 import Footer from '../Footer';
 import Header from '../Header';
 import Services_list from '../Backend/Services_list';
+import Button from '../Button';
 
 function Services() {
     return (
         <div className="page">
+            
             <section className="services-section">
                 <h1 className="title">Our Services</h1>
                 <p className='text'> 
@@ -16,7 +18,7 @@ function Services() {
 
                  
 
-                <button style={{ marginBottom: '40%' }}>Let's Talk</button>
+                <Button  Link = '/ContactUs' name = "Let's Talk!" style={{ marginBottom: '40%' }}/>
 
                 <p className='text'>Tailor-made services for all your business needs</p>
 
@@ -24,17 +26,14 @@ function Services() {
                 <img></img>
             </section>
             <div className="End-Page">
-              {/* <p className='text'>Ready to Transform Your IT Infrastructure?</p> */}
               <h1 className="title">Ready to Transform Your IT Infrastructure?</h1>
-              <button>Let's Talk</button>
+              <Button  Link = '/ContactUs' name = "Let's Talk!"/>
 
             </div>
 
             
-
-            <Footer />
         </div>
     );
 };
 
-export default Services;
+export default Services;

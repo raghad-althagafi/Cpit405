@@ -8,6 +8,7 @@ import AboutUs from './AboutUsPage/AboutUs';
 import ContactUs from './ContactUsPage/ContactUs';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from './Header';
+import Footer from './Footer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -19,6 +20,7 @@ root.render(
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/ContactUs" element={<ContactUs />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   </React.StrictMode>
 );

@@ -1,36 +1,8 @@
-body {
-  margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #ffffff;
-  color: #262626;
-}
-
 .page {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.header {
-  width: 100%;
-}
-
-.header-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-}
-
-.header-left, .header-right {
-  margin: 0;
-}
-
-.container {
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: #ffffff;
 }
 
 .title {
@@ -43,31 +15,6 @@ body {
   text-align: center;
   font-size: 200%;
   margin-bottom: 5%;
-}
-
-button {
-  /* font-size: 20px;
-  padding: 20px 30px;
-  background-color: #262626;
-  color: white;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  margin: 20px 0; */
-
-  font-size: 20px;
-  padding: 20px 30px;
-  background-color: #262626;
-  width: 10%;
-  color: white;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  /* margin-bottom: 40%; */
-}
-
-button:hover {
-  background-color: #3c3c3c;
 }
 
 .sub-text {
@@ -109,16 +56,12 @@ button:hover {
   width: 100%;
   background-image: url("backgroundService1.png");
   background-repeat: no-repeat;
-  /* background-size: cover; */
   background-position: top center;
   padding: 100px 20px; 
   display: flex;
   flex-direction: column;
   align-items: center;
-
- 
-
-   background-attachment: scroll;
+  background-attachment: scroll;
    background-size: 100% auto;
 }
 
@@ -128,16 +71,11 @@ button:hover {
   background-image: url("BackgroundService2.png");
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: contain; 
+  background-size: 100% auto; 
   background-attachment: scroll;
-  
   padding: 100px 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-
-  background-size: 100% auto;
-
-  justify-content: center; /* بالنص بالعرض */
-  align-items: center;     /* بالنص بالطول */
+  
+   
 }

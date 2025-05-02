@@ -65,7 +65,7 @@ function AboutUs() {
         <button className="btn-primary">Contact Us Now</button>
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

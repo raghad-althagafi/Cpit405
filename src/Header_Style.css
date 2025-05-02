@@ -6,7 +6,8 @@
 }
 
 .Header_Style{
-    min-width: 180vh;
+    /* min-width: 180vh; */
+    width: 100%;
     font-style: bold;
     position: fixed;
     z-index: 1000; 
