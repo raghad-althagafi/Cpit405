@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import './AboutUs_Style.css';
 import Footer from '../Footer';
 import Header from '../Header';
+import Button from '../Button';
 
 function AboutUs() {
   useEffect(() => {
@@ -37,7 +38,7 @@ function AboutUs() {
         <p className="text">
           At IT Solutions, we’re dedicated to delivering innovative, reliable technology services that drive business growth and security.
         </p>
-        <button className="btn-primary" style={{ marginBottom: '40%' }}>Get in Touch</button>
+        <Button Link='/ContactUs' name="Get in Touch" className="btn-primary" style={{ marginBottom: '40%' }} />
       </section>
 
       <section className="cards-section">
@@ -62,7 +63,7 @@ function AboutUs() {
 
       <div className="End-Page">
         <h1 className="title">Ready to elevate your IT infrastructure?</h1>
-        <button className="btn-primary">Contact Us Now</button>
+        <Button Link='/ContactUs' name="Contact Us Now" className="btn-primary" />
       </div>
 
       {/* <Footer /> */}
