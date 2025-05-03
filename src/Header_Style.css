@@ -6,14 +6,13 @@
 }
 
 .Header_Style{
-    /* min-width: 180vh; */
     width: 100%;
     font-style: bold;
     position: fixed;
     z-index: 1000; 
     background-color: rgba(255, 255, 255, 0.112);
     backdrop-filter: blur(10px);  
-    height: 50px;
+    height: 80px;
     padding: 0 30px;
     padding-top: 2%;
 }
