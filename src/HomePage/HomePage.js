@@ -5,9 +5,7 @@ import Footer from '../Footer';
 function HomePage() { 
   return (
     <div>
-      {/* <Header /> */}
       <HomePage_Content />
-      {/* <Footer /> */}
     </div>
   );
 }

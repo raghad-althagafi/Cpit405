@@ -1,14 +1,14 @@
-import HomePageImage from './HomePageImage.jpg'
 import Half_Left_Gradientgeometricwallpaperwithdifferentshapes from './Half_Left_Gradient geometric wallpaper with different shapes.jpg'
 import './HomePageContent_Style.css';
 import '../Header_Style.css'
 import Button from '../Button';
+import InteractiveBackground from './InteractiveBackground';
 
 function HomePage_Content() { 
   return (
     <>
     <div className="Header_Image">
-    <img src={HomePageImage} alt="HomePage Image" width={10000}/> 
+    <InteractiveBackground />
     <h1 className="Banner">
         Discover <br/>
         real-world <br/>
@@ -24,15 +24,15 @@ function HomePage_Content() {
       Overcoming IT roadblocks to drive continuous progress, ensuring your business stays
       <strong> agile</strong> and <strong>ready</strong> for what’s next—because the story of IT Solutions is one of growth and evolving potential.
     </p>
-    <Button  Link = "#" name = "Let's Talk!"/>
+    <Button  Link = "/ContactUs" name = "Let's Talk!"/>
   </div>
 </div>
 <div className="ColorfulBannerImage">
-<h2 className="ServicesContentContainer" >At IT Solutions, we’ve designed services
+<h2 className="ServicesContentContainer" >
+  At IT Solutions, we’ve designed services
    to address all issues, providing reliable, scalable, and secure IT
   solutions tailored to your business needs.</h2>
-  
-  <Button  Link = "#" name = "Go to Services"/>
+  <Button  Link = "/services" name = "Go to Services"/>
 </div> 
     </>
   );

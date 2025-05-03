@@ -1,11 +1,12 @@
 .FooterContainer{
     width: 100%;
     background-color: #F5F5F5;
-    padding: 70px 0 230px;
+    padding: 70px 0 30px;
     justify-content: end;
 }
 
 .FooterContainer h1{
+    padding-top: 10%;
     align-content: end;
     align-self: end;
     margin-bottom: auto;
