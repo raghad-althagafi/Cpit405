@@ -57,11 +57,11 @@ It includes a brief description, a dynamic list of services from the backend dat
 ## Backend
 To handle the backend, we created `Services_list` component.
 This component dynamically fetches and displays a list of services from the backend.
-It uses the `useEffect` to fetch data from the backend.
+It uses the `useEffect` to fetch data.
 The data is fetched from the endpoint:
 http://localhost/Api/get_services.php
 The backend returns a list of services in JSON format
-The component handles any errors that occur. 
+it handles any errors that occur. 
 Each service is rendered inside a styled box using CSS classes (`.service-box`, `.service-title`, `.service-desc`).
 This component will be used in Services page
 
@@ -76,8 +76,56 @@ This application uses a MySQL database set up via AMPPS, with PHP scripts to con
 <li>name (VARCHAR)</li>
 <li>description (TEXT)</li>
 </ul>
-
 </ul>
+
+**db.php - Database Connection**
+This file establishes a connection to the MySQL database.
+```php
+<?php
+$servername = "localhost";  
+$username = "root";         
+$password = "mysql";             
+$dbname = "it_solutions";   
+
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+?>
+```
+
+**get_services.php - Fetch Services**
+This file retrieves all services from the services table and returns them as JSON.
+```php
+<?php
+header("Access-Control-Allow-Origin: *");
+include 'db.php';
+
+header('Content-Type: application/json');
+
+$sql = "SELECT id, name, description FROM services";
+$result = $conn->query($sql);
+
+$services = [];
+
+while($row = $result->fetch_assoc()) {
+    $services[] = $row;
+}
+
+echo json_encode($services);
+
+$conn->close();
+?>
+```
+This setup allows the React frontend to fetch content from the backend using fetch() in the Services_list component.
+
+Note: These two files are located in the www folder inside the AMPPS directory.
+
+
+
+
+
 
 
 
