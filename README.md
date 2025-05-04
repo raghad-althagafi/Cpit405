@@ -48,10 +48,10 @@ It includes a brief description, a dynamic list of services from the backend dat
 
 **CSS Structure:**
 <ul>
-<li>`.Page`, `.title`, `.text`: These classes are used to organize the content.</li>
-<li>`.services-section`: Defines the upper part of the page, including the background and intro text.</li>
-<li>`.service-box`, `.service-title` and `.service-desc`: These classes are used to structure and style the services data.</li>
-<li>`.End-Page`: Contains the final part of the page.</li>
+<li>.Page, .title, .text: These classes are used to organize the content.</li>
+<li>.services-section: Defines the upper part of the page, including the background and intro text.</li>
+<li>.service-box, .service-title and .service-desc: These classes are used to structure and style the services data.</li>
+<li>.End-Page: Contains the final part of the page.</li>
 </ul>
 
 ## Backend
