@@ -1,12 +1,17 @@
-# Getting Started with Create React App
+# Welcome to our IT Solutions Project!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## First! The prototype!
+The prototype is one of the main aspects of creating any application, whether a web or a mobile one! We used Figma to create the layout of each page, making sure that we are all have the same vision that we are going for. Here:https://www.figma.com/design/f35fsTTMJJyhxBmXxIKEJd/405PROTO?node-id=0-1&p=f&t=irio4XYRlxKix34q-0
+![image](https://github.com/user-attachments/assets/83a923bc-373b-49b6-b8e6-2e2aa6f103f5)
+
+
+## Home page
 
 In the project directory, you can run:
 
-### `npm start`
+## Services page
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -14,12 +19,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+## About Us page
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Contact Us page
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
