@@ -43,8 +43,44 @@ also the `nav a:hover` is used to create a shadow beneath the object the user ho
 this reusable button is used across all web applications. The `Button(props)` function uses two `props`. `props.link` to take the user from one page to another and `props.name` allows the developer to change the title of the button. We also use `Link` from `react-router-dom` to allow the transition between the pages and the `.Button: hover` is also used to change the color of the button when the user's mouse hovers over the button.
 
 ## Services page
+This page is responsible for displaying the services.
+It includes a brief description, a dynamic list of services from the backend database, and a button linking to the contact page.
 
-xxxxxx
+**CSS Structure:**
+<ul>
+<li>`.Page`, `.title`, `.text`: These classes are used to organize the content.</li>
+<li>`.services-section`: Defines the upper part of the page, including the background and intro text.</li>
+<li>`.service-box`, `.service-title` and `.service-desc`: These classes are used to structure and style the services data.</li>
+<li>`.End-Page`: Contains the final part of the page.</li>
+</ul>
+
+## Backend
+To handle the backend, we created `Services_list` component.
+This component dynamically fetches and displays a list of services from the backend.
+It uses the `useEffect` to fetch data from the backend.
+The data is fetched from the endpoint:
+http://localhost/Api/get_services.php
+The backend returns a list of services in JSON format
+The component handles any errors that occur. 
+Each service is rendered inside a styled box using CSS classes (`.service-box`, `.service-title`, `.service-desc`).
+This component will be used in Services page
+
+## The database
+This application uses a MySQL database set up via AMPPS, with PHP scripts to connect and retrieve data.
+<ul>
+<li>Database name: it_solutions</li>
+<li>Table name: services</li>
+<li>Attributes:</li>
+<ul>
+<li>id (Primary Key, auto-increment)</li>
+<li>name (VARCHAR)</li>
+<li>description (TEXT)</li>
+</ul>
+
+</ul>
+
+
+
 
 
 ## About Us page

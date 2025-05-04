@@ -8,7 +8,7 @@ function Services() {
     return (
         <div className="page">
             
-            <section className="services-section">
+            <div className="services-section">
                 <h1 className="title">Our Services</h1>
                 <p className='text'> 
                     At IT Solutions, we've designed services to address all issues,
@@ -23,8 +23,7 @@ function Services() {
                 <p className='text'>Tailor-made services for all your business needs</p>
 
                 <Services_list />
-                <img></img>
-            </section>
+            </div>
             <div className="End-Page">
               <h1 className="title">Ready to Transform Your IT Infrastructure?</h1>
               <Button  Link = '/ContactUs' name = "Let's Talk!"/>
