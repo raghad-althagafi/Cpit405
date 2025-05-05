@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 
 function Services_list() {
   const [services, setServices] = useState([]);
-  const [loading, setLoading] = useState(true); 
   const [error, setError] = useState(null);
 
   useEffect(() => {
@@ -15,11 +14,9 @@ function Services_list() {
       })
       .then(data => {
         setServices(data);
-        setLoading(false);
       })
       .catch(error => {
         setError(error.message);
-        setLoading(false);
       });
   }, []);
 
