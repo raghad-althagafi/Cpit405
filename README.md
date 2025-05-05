@@ -142,9 +142,9 @@ The Contact Us page provides users with a way to get in touch with the IT Soluti
 **Components and Features:**
 <ul>
 <li>Contact Form: A user-friendly form that collects visitor information and messages</li>
-<li>Form Fields: Name, email, subject, and message input fields with validation</li>
+<li>Form Fields: Name, email, subject, and message input fields</li>
 <li>Submit Button: Uses the reusable Button component for consistency</li>
-<li>Contact Information: Displays company contact details including email and phone</li>
+<li>Contact Information: Displays company contact details</li>
 </ul>
 
 **CSS Structure:**
@@ -157,14 +157,13 @@ The Contact Us page provides users with a way to get in touch with the IT Soluti
 </ul>
 
 **Form Handling:**
-The contact form uses React state management to handle form inputs and submission. Form validation ensures all required fields are filled correctly before submission. The form data is sent to the backend for processing and storage.
+The contact form uses React state management to handle form inputs and submission. The form data is sent to the backend for processing.
 
 **Backend Integration:**
 The contact form submissions are processed through a PHP endpoint that:
 <ul>
 <li>Validates the incoming data</li>
 <li>Sends submissions</li>
-<li>Sends email notifications to the admin</li>
 <li>Returns success/error responses to the frontend</li>
 </ul>
 
