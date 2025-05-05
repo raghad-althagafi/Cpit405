@@ -137,5 +137,34 @@ xxxxxx
 
 ## Contact Us page
 
-xxxxxx
+The Contact Us page provides users with a way to get in touch with the IT Solutions team. It features a contact form and additional contact information.
+
+**Components and Features:**
+<ul>
+<li>Contact Form: A user-friendly form that collects visitor information and messages</li>
+<li>Form Fields: Name, email, subject, and message input fields with validation</li>
+<li>Submit Button: Uses the reusable Button component for consistency</li>
+<li>Contact Information: Displays company contact details including email and phone</li>
+</ul>
+
+**CSS Structure:**
+<ul>
+<li>.contact-container: Main container for the contact page layout</li>
+<li>.contact-form: Styles the form container and input fields</li>
+<li>.form-group: Groups form elements with proper spacing</li>
+<li>.input-field: Styles for text inputs and textarea</li>
+<li>.contact-info: Container for displaying company contact details</li>
+</ul>
+
+**Form Handling:**
+The contact form uses React state management to handle form inputs and submission. Form validation ensures all required fields are filled correctly before submission. The form data is sent to the backend for processing and storage.
+
+**Backend Integration:**
+The contact form submissions are processed through a PHP endpoint that:
+<ul>
+<li>Validates the incoming data</li>
+<li>Stores submissions in the database</li>
+<li>Sends email notifications to the admin</li>
+<li>Returns success/error responses to the frontend</li>
+</ul>
 
