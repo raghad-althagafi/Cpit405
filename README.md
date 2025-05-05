@@ -173,8 +173,7 @@ To tailor technology services that meet the unique needs of each client, fosteri
   </div>
   <Button link="/contact" name="Get in Touch" />
 </section>
-
-
+```
 
 
 
