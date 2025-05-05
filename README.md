@@ -129,13 +129,13 @@ Note: These two files are located in the www folder inside the AMPPS directory.
 
 At IT Solutions, we’re dedicated to delivering innovative, reliable technology services that drive business growth and security. Our About Us page consists of three core pillars—Vision, Mission, and Values—presented in a clean, card‑style layout.
 
-** Our Vision **
+**Our Vision**
 To lead the industry by providing top‑tier IT solutions that empower companies with secure and scalable infrastructure.
 
-** Our Mission **
+**Our Mission**
 To tailor technology services that meet the unique needs of each client, fostering innovation and continuous support.
 
-** Our Values **
+**Our Values**
 - **Integrity**: We uphold the highest standards of honesty and ethics in everything we do.  
 - **Innovation**: We embrace creativity and strive to stay ahead of technological trends.  
 - **Transparency**: We communicate openly with our clients, ensuring clarity at every step.  
