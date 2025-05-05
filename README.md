@@ -129,7 +129,9 @@ Note: These two files are located in the www folder inside the AMPPS directory.
 
 At IT Solutions, we’re dedicated to delivering innovative, reliable technology services that drive business growth and security. Our About Us page consists of three core pillars—Vision, Mission, and Values—presented in a clean, card‑style layout.
 
-![About Us section screenshot](https://github.com/user-attachments/assets/83a923bc-373b-49b6-b8e6-2e2aa6f103f5)
+![About Us section screenshot](https://github.com/raghad-althagafi/Cpit405/public/AboutUs1.jpg)
+![About Us section screenshot](https://github.com/raghad-althagafi/Cpit405/public/AboutUs2.jpg)
+![About Us section screenshot](https://github.com/raghad-althagafi/Cpit405/public/AboutUs3.jpg)
 
 ### Our Vision
 To lead the industry by providing top‑tier IT solutions that empower companies with secure and scalable infrastructure.
@@ -151,29 +153,6 @@ To tailor technology services that meet the unique needs of each client, fosteri
   <li><code>.card h3</code>: Title styling for each card.</li>
   <li><code>.card p</code>: Body text styling for readability within each card.</li>
 </ul>
-
-```html
-<!-- Example markup in your React AboutUs component -->
-<section class="about-section">
-  <h2>About Us</h2>
-  <p>At IT Solutions, we’re dedicated to delivering innovative, reliable technology services that drive business growth and security.</p>
-  <div class="cards-container">
-    <div class="card">
-      <h3>Our Vision</h3>
-      <p>To lead the industry by providing top‑tier IT solutions that empower companies with secure and scalable infrastructure.</p>
-    </div>
-    <div class="card">
-      <h3>Our Mission</h3>
-      <p>To tailor technology services that meet the unique needs of each client, fostering innovation and continuous support.</p>
-    </div>
-    <div class="card">
-      <h3>Our Values</h3>
-      <p>Integrity, innovation, transparency, and customer focus guide everything we do.</p>
-    </div>
-  </div>
-  <Button link="/contact" name="Get in Touch" />
-</section>
-```
 
 
 
