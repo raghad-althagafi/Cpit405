@@ -1,6 +1,5 @@
 # Welcome to our IT Solutions Project!🚀✨
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 ## First! The prototype!
 The prototype is one of the main aspects of creating any application, whether a web or a mobile one! We used Figma to create the layout of each page, making sure that we are all have the same vision that we are going for. Here:https://www.figma.com/design/f35fsTTMJJyhxBmXxIKEJd/405PROTO?node-id=0-1&p=f&t=irio4XYRlxKix34q-0 
@@ -126,14 +125,59 @@ Note: These two files are located in the www folder inside the AMPPS directory.
 
 
 
-
-
-
-
-
 ## About Us page
 
-xxxxxx
+At IT Solutions, we’re dedicated to delivering innovative, reliable technology services that drive business growth and security. Our About Us page consists of three core pillars—Vision, Mission, and Values—presented in a clean, card‑style layout.
+
+![About Us section screenshot](https://github.com/user-attachments/assets/83a923bc-373b-49b6-b8e6-2e2aa6f103f5)
+
+### Our Vision
+To lead the industry by providing top‑tier IT solutions that empower companies with secure and scalable infrastructure.
+
+### Our Mission
+To tailor technology services that meet the unique needs of each client, fostering innovation and continuous support.
+
+### Our Values
+- **Integrity**: We uphold the highest standards of honesty and ethics in everything we do.  
+- **Innovation**: We embrace creativity and strive to stay ahead of technological trends.  
+- **Transparency**: We communicate openly with our clients, ensuring clarity at every step.  
+- **Customer Focus**: Our clients’ success is our success—every decision is made with them in mind.
+
+**CSS Structure:**
+<ul>
+  <li><code>.about-section</code>: Main container for the About Us content, with padding and centered text.</li>
+  <li><code>.cards-container</code>: Flex‑ or grid‑layout wrapper for the three info cards.</li>
+  <li><code>.card</code>: Styles each Vision/Mission/Values card (background, border‑radius, shadow).</li>
+  <li><code>.card h3</code>: Title styling for each card.</li>
+  <li><code>.card p</code>: Body text styling for readability within each card.</li>
+</ul>
+
+```html
+<!-- Example markup in your React AboutUs component -->
+<section class="about-section">
+  <h2>About Us</h2>
+  <p>At IT Solutions, we’re dedicated to delivering innovative, reliable technology services that drive business growth and security.</p>
+  <div class="cards-container">
+    <div class="card">
+      <h3>Our Vision</h3>
+      <p>To lead the industry by providing top‑tier IT solutions that empower companies with secure and scalable infrastructure.</p>
+    </div>
+    <div class="card">
+      <h3>Our Mission</h3>
+      <p>To tailor technology services that meet the unique needs of each client, fostering innovation and continuous support.</p>
+    </div>
+    <div class="card">
+      <h3>Our Values</h3>
+      <p>Integrity, innovation, transparency, and customer focus guide everything we do.</p>
+    </div>
+  </div>
+  <Button link="/contact" name="Get in Touch" />
+</section>
+
+
+
+
+
 
 ## Contact Us page
 
@@ -166,4 +210,3 @@ The contact form submissions are processed through a PHP endpoint that:
 <li>Sends submissions</li>
 <li>Returns success/error responses to the frontend</li>
 </ul>
-
