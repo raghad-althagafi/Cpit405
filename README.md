@@ -163,7 +163,7 @@ The contact form uses React state management to handle form inputs and submissio
 The contact form submissions are processed through a PHP endpoint that:
 <ul>
 <li>Validates the incoming data</li>
-<li>Stores submissions in the database</li>
+<li>Sends submissions</li>
 <li>Sends email notifications to the admin</li>
 <li>Returns success/error responses to the frontend</li>
 </ul>
