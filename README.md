@@ -129,7 +129,7 @@ Note: These two files are located in the www folder inside the AMPPS directory.
 
 At IT Solutions, we’re dedicated to delivering innovative, reliable technology services that drive business growth and security. Our About Us page consists of three core pillars—Vision, Mission, and Values—presented in a clean, card‑style layout.
 
-![About Us section screenshot](https://github.com/raghad-althagafi/Cpit405/public/AboutUs1.jpg)
+![About Us section screenshot](https://github.com/raghad-althagafi/Cpit405/public/AboutUs1.jpg?raw=true)
 
 ### Our Vision
 To lead the industry by providing top‑tier IT solutions that empower companies with secure and scalable infrastructure.
