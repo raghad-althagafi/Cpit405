@@ -35,12 +35,12 @@ function ContactUs() {
                         <input type="text" placeholder="Message" className="form-input" />
                         <div className="checkbox-row">
                             <label>
-                                <input type="checkbox" /> I consent to receive related messages about services, account verification, and any request information from IT Solutions and agree to the privacy policy.
+                                <input type="checkbox" required/> I consent to receive related messages about services, account verification, and any request information from IT Solutions and agree to the privacy policy.
                             </label>
                         </div>
                         <div className="checkbox-row">
                             <label>
-                                <input type="checkbox" /> I agree to receive emails and other details from IT Solutions.
+                                <input type="checkbox" required/> I agree to receive emails and other details from IT Solutions.
                             </label>
                         </div>
                         <button type="submit" className="Button" style={{ marginBottom: '40%' }}>Send Contact Request</button>
